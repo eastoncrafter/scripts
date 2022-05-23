@@ -1,4 +1,4 @@
-#!/bin/bash root
+#!/bin/bash
 #make sure to run as sudo
 fallocate -l 8G /swapfile 
 chmod 600 /swapfile
