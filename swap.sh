@@ -1,6 +1,5 @@
 #!/bin/bash root
 #make sure to run as sudo
-
 fallocate -l 8G /swapfile 
 chmod 600 /swapfile
 mkswap /swapfile
